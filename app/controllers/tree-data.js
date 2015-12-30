@@ -8,15 +8,18 @@ export default Ember.Controller.extend(TableFeatures, TreeDataGridMixin, {
   features: [
     {
       name: 'Lazy Loading',
-      icon: 'fa-flash'
+      icon: 'fa-flash',
+      description: 'This allows you to partially load table data from the server based on what is being displayed in the table'
     },
     {
       name: 'Column Group',
-      icon: 'fa-arrows-v'
+      icon: 'fa-arrows-v',
+      description: 'Excel like column groups enable you to make larger tables more readable.'
     },
     {
       name: 'Sort',
-      icon: 'fa-sort'
+      icon: 'fa-sort',
+      description: 'Built in sorting with no extra code required'
     }
   ]
 });

@@ -1,6 +1,22 @@
 <h2>Features</h2>
 <div class="separator-2"></div>
-<p>Sed ut Perspiciatis Unde Omnis Iste Sed ut sit voluptatem accusan tium </p>
+<p>
+    Ember table allows you to render very large data sets by only rendering the rows that are being displayed.
+    It is written as an ember component with an API that is easy to understand and extend.
+</p>
+<p>
+    Our fork of Ember Table provides some amazing features not available with the standard version written by Addepar.
+    <dl>
+        <dt>Lazy Loading</dt>
+        <dd>As opposed to lazy rendering, lazy loading refers to the ability to only load from the server the data that is currently being displayed.</dd>
+        <dt>Built in sorting and row grouping</dt>
+        <dd>While the standard version of Ember Table provides some basic hooks to allow you to group by row and to sort, our fork has this functionality built in, and easily customizeable.</dd>
+        <dt>Column Aggregations</dt>
+        <dd>Excel like column groups enable you to make larger tables more readable.</dd>
+        <dt>Infinite Scroll</dt>
+        <dd>Built in support for 'infinite scroll' through up to millions of rows of data.</dd>
+    </dl>
+</p>
 <div class="owl-carousel carousel">
   {{#each tables as |table index|}}
       <div class="image-box object-non-visible" data-animation-effect="fadeInLeft"

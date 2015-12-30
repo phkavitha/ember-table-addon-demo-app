@@ -8,15 +8,23 @@ export default Ember.Controller.extend(TableFeatures, TreeDataGridMixin, {
   features: [
     {
       name: 'Column Group Headers',
-      icon: 'fa-flash'
+      icon: 'fa-flash',
+      description: 'You can specify a header name for a group of columns'
     },
     {
       name: 'Sorting Indicator',
-      icon: 'fa-arrows-v'
+      icon: 'fa-arrows-v',
+      description: 'You can replace the default icon showing the direction of sorting'
     },
     {
       name: 'Group Row Indicator',
-      icon: 'fa-sort'
+      icon: 'fa-sort',
+      description: 'You can replace the default icon shown to indicate whether a row is collapsed or expanded'
+    },
+    {
+      name: 'Loading Indicator',
+      icon: 'fa-spinner',
+      description: 'You can replace the default icon shown to indicate whether a chunk of rows is still loading'
     }
   ],
 
